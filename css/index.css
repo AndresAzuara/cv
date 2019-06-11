@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+/*PRESENTATION TAGS*/
+
+@media screen(max-width: ){
+
+}
+
+@media only screen and (max-width: 560px){
+  #presentation {
+    background-image: url("../images/fondo2.jpeg");
+    background-size: cover;
+    color: #1687a7;
+  }
+}
+
+@media only screen and (min-width: 561px){
+  #presentation {
+    background-image: url("../images/fondo.jpeg");
+    background-size: cover;
+    color: #fff;
+  }
+}
+
+#presentation {
+  padding-bottom: 20%;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 1.5em;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.padding {
+  padding: 7% 15%;
+}
+
+hr {
+  width: 20%;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+/*EDUCATION TAGS*/
+
+#education {
+  background-color: #f68787;
+}
+
+/*KNOWLEDGE*/
+
+#knowledge{
+  text-align:center;
+}
+
+.logo-skills{
+  padding-bottom: 7%;
+}
+
+.fa-html5{
+  color: #e8b248;
+}
+
+.fa-css3-alt{
+  color: #36b4db;
+}
+
+.fa-js-square{
+  color: #daec4e;
+}
+
+.fa-node-js{
+  color: #43d441;
+}
+
+.card-logo-skill{
+  width: 40%
+}
+.card-logo-skill:hover {
+  width: 60%;
+}
+
+.fab, .fas {
+  font-size: 5rem;
+  padding: 10px;
+}
+
+.fab:hover, .fas:hover {
+  font-size: 8rem;
+}
+
+.card {
+  margin: 5%;
+}
+
+.white-word {
+  color: #f68787;
+}
